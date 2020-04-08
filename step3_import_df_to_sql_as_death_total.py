@@ -47,7 +47,8 @@ connection = pymysql.connect(host = Config.get('mysqld', 'host'),
 cursor = connection.cursor()
 
 #create table death_total
-
+sql = "DROP TABLE IF EXISTS death_total"
+cursor.execute(sql)
 sql = "CREATE TABLE death_total (ID INT, country_region VARCHAR(255), calander DATE, death_per_day INT )"
 cursor.execute(sql)
 
