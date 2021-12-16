@@ -19,3 +19,4 @@ tion, please include the following coding samples using the data from https://gi
 5.  Python: Provide code to upload the table from step 4 into an SQL table named deaths_change_python
 
 6. SQL: Provide SQL code to calculate the daily change for each country using only the data from deaths_total and save it into an SQL table named deaths_change_sql  
+7. Visualization: https://github.com/irisji/covidDataAnalysis/blob/master/bar_chart_race.gif
